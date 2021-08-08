@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Nav Bar</title>
+    <link rel="stylesheet" href="Navbar.css">
+    </head>
+    <body>
+         <header>
+             <a href="#" class="logo">Egerton</a>
+             <ul>
+             <li><a href="#">Recording Officer</a></li>
+             <li><a href="#">Investigating Officer</a></li>
+             <li><a href="#">Disciplinary</a></li>
+             <li><a href="#">Chief Crime Officer</a></li>
+             <li><a href="#">DVC/AA</a></li>
+            </ul>
+         </header>
+         <section class="banner"></section>
+         <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY >0 )
+        })</script>
+        <p>Insert Any Text</p>
+    </body>
+</html>
