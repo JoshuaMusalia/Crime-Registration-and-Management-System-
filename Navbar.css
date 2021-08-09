@@ -6,11 +6,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body {
-   background: #000;
-   min-height: 200vh; 
+div.boody {
+   background: #000; 
+   min-height: 20vh;
 }
-header{
+div.heeader{
     position: fixed;
     top: 0;
     left: 0;
@@ -22,11 +22,11 @@ header{
     padding: 40px 100px;
     z-index: 100000;
 }
-header.sticky{
+div.heeader.sticky{
     padding: 5px 100px;
     background: #fff;
 }
-header .logo{
+div.heeader .logo{
     position: relative;
     font-weight: 700;
     color: #fff;
@@ -36,18 +36,18 @@ header .logo{
     letter-spacing: 2px;
     transition: 0.6s;
 }
-header ul{
+div.heeader ul{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header ul li
+div.heeader ul li
 {
     position: relative;
     list-style: none;
 }
-header ul li a
+div.heeader ul li a
 {
     position: relative;
     margin: 0 15px;
@@ -57,7 +57,7 @@ header ul li a
     font-weight: 500px;
     transition: 0.6s;
 }
-header ul li a:hover{
+div.heeader ul li a:hover{
     color: #2d8425;
     background: #44f321;
     box-shadow: 0 0 10px #21f32c, 0 0 40px #33f321, 0 0 80px #21f333;
@@ -69,12 +69,17 @@ header ul li a:hover{
     height: 100vh;
     background: url(pexels-sora-shimazaki-5669619.jpg);
     background-size: cover;
+    opacity: 0.1;
 }
-header.sticky .logo,
-header.sticky ul li a 
+.heeader.sticky .logo,
+.heeader.sticky ul li a 
 {
     color: #000;
 }
 p{
     color: #fff;
+}
+.logout{
+    background: rgb(73, 8, 8);
+    border-radius: 32px;
 }
